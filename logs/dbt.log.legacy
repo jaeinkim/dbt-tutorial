@@ -1,0 +1,4 @@
+2022-06-27 04:37:51.881571 (MainThread): Please install grpcio-status to obtain helpful grpc error messages.
+2022-06-27 04:37:53.090137 (Thread-1): unclosed <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('100.65.0.100', 55476), raddr=('34.64.4.10', 443)>
+2022-06-27 04:37:53.090364 (Thread-1): unclosed <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('100.65.0.100', 55480), raddr=('34.64.4.10', 443)>
+2022-06-27 04:37:55.513443 (MainThread): unclosed <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('100.65.0.100', 55484), raddr=('34.64.4.10', 443)>

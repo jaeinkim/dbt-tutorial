@@ -1,0 +1,188 @@
+
+
+============================== 2022-06-27 04:00:51.058626 | fd4c1c28-aaec-44dd-918f-e93edc8094bf ==============================
+04:00:51.058636 [info ] [MainThread]: Running with dbt=1.1.1
+04:00:51.058942 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/emart/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+04:00:51.059078 [debug] [MainThread]: Tracking: tracking
+04:00:51.066740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd1bdfdcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd1bdfdc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd1bdfdc40>]}
+04:00:51.276138 [debug] [MainThread]: Executing "git --help"
+04:00:51.280956 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+04:00:51.281273 [debug] [MainThread]: STDERR: "b''"
+04:00:51.284393 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+04:00:51.284788 [debug] [MainThread]: Opening a new connection, currently in state init
+04:00:51.285105 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Service account info was not in the expected format, missing fields token_uri, client_email.'
+04:00:51.285530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd1a59d970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd1a59d940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd1a59dd60>]}
+04:00:52.020391 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-27 04:24:24.955395 | 498a724e-bd1d-4bcd-b6d5-3f5f8542651f ==============================
+04:24:24.955404 [info ] [MainThread]: Running with dbt=1.1.1
+04:24:24.955726 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/emart/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+04:24:24.956524 [debug] [MainThread]: Tracking: tracking
+04:24:24.964528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36fb4f4cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36fb4f4c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36fb4f4c40>]}
+04:24:25.169987 [debug] [MainThread]: Executing "git --help"
+04:24:25.174689 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+04:24:25.174982 [debug] [MainThread]: STDERR: "b''"
+04:24:25.177887 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+04:24:25.178253 [debug] [MainThread]: Opening a new connection, currently in state init
+04:24:25.179008 [debug] [MainThread]: On debug: select 1 as id
+04:24:25.906019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36f9c79fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36f9c9ca90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36f9c9c580>]}
+04:24:26.643928 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-27 04:37:51.983799 | a9be79bf-ae9e-419b-9a53-54dcb90ce9bd ==============================
+04:37:51.983814 [info ] [MainThread]: Running with dbt=1.1.1
+04:37:51.984177 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/emart/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:37:51.984288 [debug] [MainThread]: Tracking: tracking
+04:37:51.992009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a457f190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a457f250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a457f280>]}
+04:37:52.001217 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+04:37:52.001437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a44cf7c0>]}
+04:37:52.010686 [debug] [MainThread]: Parsing macros/adapters.sql
+04:37:52.031228 [debug] [MainThread]: Parsing macros/catalog.sql
+04:37:52.035866 [debug] [MainThread]: Parsing macros/etc.sql
+04:37:52.037369 [debug] [MainThread]: Parsing macros/materializations/view.sql
+04:37:52.039424 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+04:37:52.051454 [debug] [MainThread]: Parsing macros/materializations/table.sql
+04:37:52.054525 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+04:37:52.055867 [debug] [MainThread]: Parsing macros/materializations/copy.sql
+04:37:52.057962 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+04:37:52.059954 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+04:37:52.061075 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+04:37:52.061654 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+04:37:52.062326 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+04:37:52.063040 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+04:37:52.064219 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+04:37:52.065488 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+04:37:52.067462 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+04:37:52.069496 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+04:37:52.072542 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+04:37:52.082640 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+04:37:52.091191 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+04:37:52.104320 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+04:37:52.105686 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+04:37:52.118578 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+04:37:52.123314 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+04:37:52.124749 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+04:37:52.126234 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+04:37:52.129753 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+04:37:52.135566 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+04:37:52.137872 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+04:37:52.139969 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+04:37:52.141028 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+04:37:52.146732 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+04:37:52.148613 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+04:37:52.156476 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+04:37:52.169398 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+04:37:52.172925 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+04:37:52.184950 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+04:37:52.186170 [debug] [MainThread]: Parsing macros/etc/statement.sql
+04:37:52.189668 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+04:37:52.196216 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+04:37:52.201889 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+04:37:52.203773 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+04:37:52.205948 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+04:37:52.213681 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+04:37:52.221562 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+04:37:52.223889 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+04:37:52.227498 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+04:37:52.392533 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+04:37:52.402363 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+04:37:52.441844 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f749fbd66d0>]}
+04:37:52.445841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a4562640>]}
+04:37:52.446107 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+04:37:52.446308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a44d11c0>]}
+04:37:52.447450 [info ] [MainThread]: 
+04:37:52.447830 [debug] [MainThread]: Acquiring new bigquery connection "master"
+04:37:52.448594 [debug] [ThreadPool]: Acquiring new bigquery connection "list_emart-datafabric"
+04:37:52.448821 [debug] [ThreadPool]: Opening a new connection, currently in state init
+04:37:52.868825 [debug] [ThreadPool]: Acquiring new bigquery connection "list_emart-datafabric_temp_7d"
+04:37:52.869119 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:37:53.078810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f749fbbf8e0>]}
+04:37:53.079370 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+04:37:53.079621 [info ] [MainThread]: 
+04:37:53.086470 [debug] [Thread-1  ]: Began running node model.jaffle_shop.my_first_dbt_model
+04:37:53.086755 [info ] [Thread-1  ]: 1 of 2 START table model temp_7d.my_first_dbt_model ............................ [RUN]
+04:37:53.087113 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.jaffle_shop.my_first_dbt_model"
+04:37:53.087259 [debug] [Thread-1  ]: Began compiling node model.jaffle_shop.my_first_dbt_model
+04:37:53.087362 [debug] [Thread-1  ]: Compiling model.jaffle_shop.my_first_dbt_model
+04:37:53.092219 [debug] [Thread-1  ]: Writing injected SQL for node "model.jaffle_shop.my_first_dbt_model"
+04:37:53.092549 [debug] [Thread-1  ]: finished collecting timing info
+04:37:53.092679 [debug] [Thread-1  ]: Began executing node model.jaffle_shop.my_first_dbt_model
+04:37:53.118026 [debug] [Thread-1  ]: Writing runtime SQL for node "model.jaffle_shop.my_first_dbt_model"
+04:37:53.118370 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:37:53.118739 [debug] [Thread-1  ]: On model.jaffle_shop.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.my_first_dbt_model"} */
+
+
+  create or replace table `emart-datafabric`.`temp_7d`.`my_first_dbt_model`
+  
+  
+  OPTIONS()
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+  
+04:37:54.882488 [debug] [Thread-1  ]: finished collecting timing info
+04:37:54.882928 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f749f2f80a0>]}
+04:37:54.883261 [info ] [Thread-1  ]: 1 of 2 OK created table model temp_7d.my_first_dbt_model ....................... [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 1.80s]
+04:37:54.883619 [debug] [Thread-1  ]: Finished running node model.jaffle_shop.my_first_dbt_model
+04:37:54.884181 [debug] [Thread-1  ]: Began running node model.jaffle_shop.my_second_dbt_model
+04:37:54.884458 [info ] [Thread-1  ]: 2 of 2 START view model temp_7d.my_second_dbt_model ............................ [RUN]
+04:37:54.884775 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.jaffle_shop.my_second_dbt_model"
+04:37:54.884888 [debug] [Thread-1  ]: Began compiling node model.jaffle_shop.my_second_dbt_model
+04:37:54.884972 [debug] [Thread-1  ]: Compiling model.jaffle_shop.my_second_dbt_model
+04:37:54.886918 [debug] [Thread-1  ]: Writing injected SQL for node "model.jaffle_shop.my_second_dbt_model"
+04:37:54.887164 [debug] [Thread-1  ]: finished collecting timing info
+04:37:54.887279 [debug] [Thread-1  ]: Began executing node model.jaffle_shop.my_second_dbt_model
+04:37:54.901982 [debug] [Thread-1  ]: Writing runtime SQL for node "model.jaffle_shop.my_second_dbt_model"
+04:37:54.902267 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:37:54.902632 [debug] [Thread-1  ]: On model.jaffle_shop.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.1", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.my_second_dbt_model"} */
+
+
+  create or replace view `emart-datafabric`.`temp_7d`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `emart-datafabric`.`temp_7d`.`my_first_dbt_model`
+where id = 1;
+
+
+04:37:55.509065 [debug] [Thread-1  ]: finished collecting timing info
+04:37:55.509521 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9be79bf-ae9e-419b-9a53-54dcb90ce9bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f749f2e1df0>]}
+04:37:55.509840 [info ] [Thread-1  ]: 2 of 2 OK created view model temp_7d.my_second_dbt_model ....................... [[32mOK[0m in 0.62s]
+04:37:55.510187 [debug] [Thread-1  ]: Finished running node model.jaffle_shop.my_second_dbt_model
+04:37:55.511180 [debug] [MainThread]: Acquiring new bigquery connection "master"
+04:37:55.511450 [info ] [MainThread]: 
+04:37:55.511625 [info ] [MainThread]: Finished running 1 table model, 1 view model in 3.06s.
+04:37:55.511781 [debug] [MainThread]: Connection 'master' was properly closed.
+04:37:55.511852 [debug] [MainThread]: Connection 'model.jaffle_shop.my_second_dbt_model' was properly closed.
+04:37:55.516940 [info ] [MainThread]: 
+04:37:55.517144 [info ] [MainThread]: [32mCompleted successfully[0m
+04:37:55.517330 [info ] [MainThread]: 
+04:37:55.517462 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+04:37:55.517670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a44d1340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f74a4484d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f749dad51c0>]}
